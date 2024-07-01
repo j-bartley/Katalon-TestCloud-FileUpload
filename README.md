@@ -1,6 +1,7 @@
 # Katalon-TestCloud-FileUpload
 A small project to show how to place a file in your project for use of uploading the file during a Katalon TestCloud execution.
 
+**Problem:**
 ```
 I have a local file that works fine when running the test in Katalon Studio, but when I try to execute the test on TestCloud it cannot locate the file:
 
@@ -35,18 +36,18 @@ wrappedDriver.setFileDetector(new LocalFileDetector())
 
 }`
 ```
+
 **File Upload Code:**
 
 Once the required code has been established, the following code can be used as the commands to upload the actual file (the path in this example expects the file “uploadSample.txt” to be located in the “Data Files” folder of the project, and uses an example Object (Page_File Upload) as the upload pointer).
 
-```String filePath = new File(RunConfiguration.getProjectDir() + '/' + 'Data Files/uploadSample.txt').getCanonicalPath()
-
-WebUI.uploadFile(findTestObject('Page_File Upload/input_File to uploadNotes about the file to_4f2f05'), filePath)```
-
 ```
+String filePath = new File(RunConfiguration.getProjectDir() + '/' + 'Data Files/uploadSample.txt').getCanonicalPath()
+
+WebUI.uploadFile(findTestObject('Page_File Upload/input_File to uploadNotes about the file to_4f2f05'), filePath)
+```
+
 Once this code is implemented, the file upload will work correctly whether executed locally on Katalon Studio / KRE and remotely with a KRE / Agent or TestCloud.
-```
-
 
 **Additional Notes:**
 
