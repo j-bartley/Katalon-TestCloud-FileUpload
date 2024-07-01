@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>blockquote_asdf</name>
+   <tag></tag>
+   <elementGuidId>fa299b30-6747-4f15-91ab-8af2f0486bd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='File Upload Results'])[2]/following::blockquote[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>blockquote</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>blockquote</value>
+      <webElementGuid>381e1e29-b114-4dc5-a1b8-7884bf529623</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>asdf</value>
+      <webElementGuid>12a800ce-b5c8-4f9c-b085-727d4eb043ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/blockquote[1]</value>
+      <webElementGuid>ddbe1744-419e-4a6c-ac17-73f1cbab2735</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='File Upload Results'])[2]/following::blockquote[1]</value>
+      <webElementGuid>5dfbc7e2-9888-4bc2-a66e-27be31cc1930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ï»¿a'])[1]/preceding::blockquote[1]</value>
+      <webElementGuid>8d4167b3-9aeb-4a04-8a74-16fe17a6dc49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/html[1]/body[1]'])[1]/preceding::blockquote[1]</value>
+      <webElementGuid>b413d618-e4ff-45e0-a1ed-6a9f2499695a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='asdf']/parent::*</value>
+      <webElementGuid>7e9bee2f-9664-4c49-9eb4-4e4184f4b82a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//blockquote</value>
+      <webElementGuid>b2c89703-67bb-4fbc-a562-bd91ab2aad3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//blockquote[(text() = 'asdf' or . = 'asdf')]</value>
+      <webElementGuid>bfe7a70a-3982-4e03-a4ce-09929be07b57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
